@@ -9,7 +9,7 @@ Our solution includes code for:
 - A Machine Language driven imitation agent
 - A manual algorithm/heuristic bot
 
-The ML solution ia to use semantic segmentation of game boards to predict best next actions for a fleet of competing ships, based on imitating thousands of previous competitor games.
+The ML solution uses semantic segmentation of game boards to predict best next actions for a fleet of competing ships, based on imitating thousands of previous competitor games.
 
 If you want to train a model, first download [11GB of games](https://www.kaggle.com/robga/halitegames/).  Processing the games with the dataset notebook will create a 120GB dataset suitable for training. Training can take anywhere from 5-20 hours on a strong consumer GPU.
 
